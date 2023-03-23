@@ -50,7 +50,7 @@
 
 In this repository, we only cover how to create a portfolio website.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back-to-top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -116,7 +116,7 @@ Replace **commit-message** with the type of changes you made. Example **Changed 
   git push
 ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back-to-top</a>)</p>
 
 
 <!-- AUTHORS -->
@@ -156,12 +156,6 @@ If you like this project, follow me
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+I would like to thank Microverse Organization.
 
 
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-This project is [MIT]() licensed.
-
-<p align="right">(<a href="#readme-top">back-to-top</a>)</p>
