@@ -9,29 +9,34 @@
   flex-shrink: 3;
 }
 
-nav {
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 10px;
 }
 
-nav a {
-  margin-top: 25px;
-  margin-right: 25px;
-  width: 18px;
-  height: 12px;
+header nav {
+  display: flex;
+  justify-content: center;
 }
 
-nav h1 {
+header a {
+  padding: 10px;
+  text-decoration: none;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  margin-left: 25px;
-  margin-top: 25px;
   color: #6070ff;
+  margin-left: 10px;
+}
+
+header nav a {
+  padding: 10px;
+  width: 18px;
+  margin-right: 10px;
 }
 
 .main-container {
