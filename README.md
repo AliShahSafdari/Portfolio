@@ -1,5 +1,28 @@
 <a name="readme-top"></a>
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
 
 <!-- TABLE OF CONTENTS -->
 
@@ -9,153 +32,113 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 [Hello Microverse] <a name="about-project">
+Hello , This is a HTML AND CSS simple project.</a>
 
-**[Portfolio]** This guide shows you how to build a portfolio web page that fits mobile screens.
+[Hello Microverse] is a simple buil up demo project.
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With 
 
-### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>HTML5</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>CSS3</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
+### Tech Stack 
+HTML
+CSS
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Key Features 
 
-In this repository, we only cover how to create a portfolio website.
-
-<p align="right">(<a href="#readme-top">back-to-top</a>)</p>
+- **[Simple Site]**
+- **[h1 tag is used]**
+- **[Linter is used]**
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-follow these steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to get started, you need to know the basic **git-commands**, **HTML5**, **CSS3** and how to **Create a repository**.
+In order to run this project you need:You have to clone this project to your local machine
 
 ### Setup
 
-Clone this repository to your folder that you choose.
+Clone this repository to your desired folder:git clone git@github.com:Elhambasir/Hello-Microverse.git
 
-Example commands:
-```sh
-  cd new-protfolio
-  
-  git clone git@github.com:myaccounts/new-project.git
-```
+### Install
 
-### Create your **files** and **folder** for your **images**.
+Install this project with: Any software which you are comfortable with
 
-Example command: 
+### Usage
 
-```sh
+To run the project, execute the following command: On your computer's keyboard press f5 or run it with live server
 
-mkdir images
+### Run tests
 
-touch index.html
+To run tests, run the following command: In visual studio code with live server plugin right click and run live server.
 
-touch style.css
-```
+### Deployment
 
-###  **Open** your files in your editor. 
-
-```sh
-code .
-```
-You can now write your own code to your files.
-To visualize how it will look on mobile phones, Minimize your Browser in to 375px
-
-
-### Add, Commit and Push your changes in github. 
-
-#### To add your changes, run 
-
-```sh
-  git add name-of-file
-```
-
-#### To commit your changes, run 
-
-```sh
-  git commit -m "commit-message"
-```
-Replace **commit-message** with the type of changes you made. Example **Changed background color**
-
-#### To push your changes, run
-
-```sh
-  git push
-```
-
-<p align="right">(<a href="#readme-top">back-to-top</a>)</p>
-
+You can deploy this project using: It is not completed.
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
 
-👤 **Ali Shah Safdari**
+👤 **Author1**
 
 - GitHub: [@AliShahSafdari](https://github.com/AliShahSafdari)
-<p align="right">(<a href="#readme-top">back-to-top</a>)</p>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
+ **Future Features**
 
-## 🔭 Future Features <a name="future-features"></a>
+- [ ] **[Navbar]**
+- [ ] **[Footer]**
+- [ ] **[Good style]**
 
-- [ ] **[I will make responsive for other divices also]**
-
-<p align="right">(<a href="#readme-top">back-to-top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
+## ontributing
 
 Feel free to check the [issues page](../../issues/).
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## Show your support
 
-If you like this project, follow me  
+If you like this project reach me on my contact
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse Organization.
+I would like to thank the Microverse community.
 
-
+📝 License
+This project is [MIT](./LICENSE) licensed.
