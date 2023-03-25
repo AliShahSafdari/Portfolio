@@ -101,7 +101,8 @@ header nav a {
 }
 
 .wraper {
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  display: grid;
 }
 
 .works-container {
@@ -159,19 +160,23 @@ header nav a {
   flex-grow: 0;
 }
 
-.primarytext1 h3 {
+.primarytext1-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin-top: -8px;
   width: 295px;
-  height: 36px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  margin-top: 10px;
-  font-size: 22px;
-  line-height: 20px;
-  color: #172b4d;
+  height: 124px;
+  background: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.primarytext1 .multi-post {
+  font-family: 'Poppins', sans-serif;
+  color: #172b4d;
 }
 
 .primarytext2 {
@@ -183,6 +188,21 @@ header nav a {
   font-style: normal;
   font-weight: 400;
   margin-top: -34px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #344563;
+  display: block;
+}
+
+.primarytext2-1 {
+  width: 295px;
+  height: 76px;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: -20px;
   font-size: 14px;
   line-height: 24px;
   color: #344563;
@@ -204,6 +224,21 @@ header nav a {
   margin-left: 2px;
 }
 
+.primarytext3-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 214px;
+  height: 24px;
+  flex: none;
+  padding-top: 4px;
+  order: 2;
+  flex-grow: 0;
+  margin-left: 2px;
+}
+
 .primarytext4 {
   width: 295px;
   height: 72px;
@@ -211,6 +246,15 @@ header nav a {
   order: 3;
   flex-grow: 0;
   margin-top: 2px;
+}
+
+.primarytext4-1 {
+  width: 295px;
+  height: 72px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin-top: -8px;
 }
 
 .primarytext1 h2 {
@@ -222,6 +266,20 @@ header nav a {
   flex-direction: row;
   align-items: center;
   margin-top: -8px;
+  padding: 0;
+  gap: 12px;
+  width: 237px;
+  height: 32px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.fram-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -10px;
   padding: 0;
   gap: 12px;
   width: 237px;
@@ -283,16 +341,6 @@ header nav a {
   padding-left: 18px;
   padding-right: 18px;
   text-align: center;
-}
-
-.multi-post {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
-  margin-top: 3px;
 }
 
 .about-my-slef {
@@ -409,6 +457,58 @@ ul.socail-media-icon1 {
   border-style: solid;
   border-width: 1px;
   border-color: #396df2;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  word-spacing: 1px;
+  margin-left: 20px;
+  padding: 8px 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.normal-button:hover {
+  color: #fff;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  word-spacing: 1px;
+  margin-left: 20px;
+  padding: 8px 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.normal-button:active {
+  color: #fff;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #2230d2;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  word-spacing: 1px;
+  margin-left: 20px;
+  padding: 8px 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.normal-button:disabled {
+  color: gray;
+  cursor: not-allowed;
+  border-radius: 8px;
+  border-style: none;
+  background-color: gray;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
