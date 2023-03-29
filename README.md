@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 > This is my second Microverse Project. It is based on how to build my portfolio and make it responsive to various devices
 
-**[Foga's portfolio website]** is a website that is used to test for responsiveness to mobile devices
+**[Ali's portfolio website]** is a website that is used to test for responsiveness to mobile devices
 
 ## 🛠 Built With <a name="HTML and CSS"></a>
 
