@@ -127,6 +127,10 @@ Replace **commit-message** with the type of changes you made. Example **Changed 
 👤 **Ali Shah Safdari**
 
 - GitHub: [@AliShahSafdari](https://github.com/AliShahSafdari)
+
+👤 **Foga Kater Amos**
+
+- GitHub: [@AliShahSafdari](https://github.com/katfogy)
 <p align="right">(<a href="#readme-top">back-to-top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -159,3 +163,8 @@ If you like this project, follow me
 I would like to thank Microverse Organization.
 
 
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
