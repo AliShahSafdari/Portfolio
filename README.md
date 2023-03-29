@@ -130,7 +130,7 @@ Replace **commit-message** with the type of changes you made. Example **Changed 
 
 👤 **Foga Kater Amos**
 
-- GitHub: [@AliShahSafdari](https://github.com/katfogy)
+- GitHub: [@katfogy](https://github.com/katfogy)
 <p align="right">(<a href="#readme-top">back-to-top</a>)</p>
 
 <!-- FUTURE FEATURES -->
