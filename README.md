@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Foga's portfolio website] <a name="about-project"></a>
+# 📖 [Ali's portfolio website] <a name="about-project"></a>
 
 > This is my second Microverse Project. It is based on how to build my portfolio and make it responsive to various devices
 
