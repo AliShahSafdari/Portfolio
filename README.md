@@ -159,3 +159,5 @@ If you like this project, follow me
 I would like to thank Microverse Organization.
 
 
+📝 License
+This project is [MIT](./LICENSE) licensed.
