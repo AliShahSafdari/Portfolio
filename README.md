@@ -1,4 +1,5 @@
 <a name="readme-top"></a>
+
 <!--
 HOW TO USE:
 This is an example of how you may give instructions on setting up your project locally.
@@ -12,9 +13,6 @@ REQUIRED SECTIONS:
   - Live Demo
 - Getting Started
 - Authors
-- Future Features
-- Contributing
-- Show your support
 - Acknowledgements
 - License
 
@@ -23,6 +21,15 @@ OPTIONAL SECTIONS:
 
 After you're finished please remove all the comments and instructions!
 -->
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
+  <br/>
+
+  <!-- <h3><b>Microverse README Template</b></h3> -->
+
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -50,95 +57,133 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project">
-Hello , This is a HTML AND CSS simple project.</a>
+# 📖 [Ali's portfolio website] <a name="about-project"></a>
 
-[Hello Microverse] is a simple buil up demo project.
+> This is my second Microverse Project. It is based on how to build my portfolio and make it responsive to various devices
 
-## 🛠 Built With 
+**[Ali's portfolio website]** is a website that is used to test for responsiveness to mobile devices
 
-### Tech Stack 
-HTML
-CSS
+## 🛠 Built With <a name="HTML and CSS"></a>
+
+### Tech Stack <a name="Front end"></a>
+
+> This is a desk-top browser website.
+
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JS</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
-
 ### Key Features 
+- **[It has a header for navigation]**
+- **[There is a headline section to know more about me and click on the links to connect with me directly]**
+- **[There is a works section to display my recent works]**
+- **[There is a skills section to showcase the skills I have in terms of programming]**
+- **[There is a form section to write me directly about any questions]**
+- **[The portfolio is mobile and desktop responsive]**
+- **[There is a pop-up window for when you click on the see project button]**
+- **[There is form validation for all input fields]**
+- **[Data are stored in local storage]**
 
-- **[Simple Site]**
-- **[h1 tag is used]**
-- **[Linter is used]**
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="#"></a>
+
+- [Live Demo Link](#)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+<!-- To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:You have to clone this project to your local machine
+In order to run this project you need:
+
+- A browser that supports html5 and css3
 
 ### Setup
 
-Clone this repository to your desired folder:git clone git@github.com:Elhambasir/Hello-Microverse.git
+Clone this repository to your desired folder:
+
+
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:AliShahSafdari/Protfolio.git
+```
+-
 
 ### Install
 
-Install this project with: Any software which you are comfortable with
+Install this project with:
 
+- Clone the code into your machine and run test in an editor of your choice(E.g VScode). -->
 ### Usage
+Opening the index.html with  your browser
 
-To run the project, execute the following command: On your computer's keyboard press f5 or run it with live server
-
-### Run tests
-
-To run tests, run the following command: In visual studio code with live server plugin right click and run live server.
-
-### Deployment
-
-You can deploy this project using: It is not completed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors">Ali Shah Safdari</a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+👤 **Ali Shah Safdari**
 
 - GitHub: [@AliShahSafdari](https://github.com/AliShahSafdari)
+- Twitter: [@AlishahSafdari](https://twitter.com/AlishahSafdari)
+- LinkedIn: [@ali-shah-safdari-010541215](https://www.linkedin.com/in/ali-shah-safdari-010541215/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
- **Future Features**
 
-- [ ] **[Navbar]**
-- [ ] **[Footer]**
-- [ ] **[Good style]**
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Integrate more dynamic styles with css frameworks]**
+- [ ] **[Develop a database to store information from people who sends information via email]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+## 🤝 Contributing <a name="contributing"></a>
 
-## ontributing
-
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/AliShahSafdari/Protfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-## Show your support
+## ⭐️ Show your support <a name="support"></a>
 
-If you like this project reach me on my contact
+If you like this project or would love to tell me ways to improve it, contact me on LinkedIn or Twitter. It will be a pleasure to hear from you and maybe collaborate on more projects.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank the Microverse community.
 
-📝 License
-This project is [MIT](./LICENSE) licensed.
+I would like to thank Microverse community for this opportunity to learn new things.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
