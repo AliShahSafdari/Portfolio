@@ -114,6 +114,10 @@ You can deploy this project using: It is not completed.
 
 - GitHub: [@katfogy](https://github.com/katfogy)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back-to-top</a>)</p>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
  **Future Features**
@@ -144,9 +148,13 @@ If you like this project reach me on my contact
 
 I would like to thank the Microverse community.
 
-
+<<<<<<<<< Temporary merge branch 1
+📝 License
+This project is [MIT](./LICENSE) licensed.
+=========
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+>>>>>>>>> Temporary merge branch 2
