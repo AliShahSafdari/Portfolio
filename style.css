@@ -43,7 +43,7 @@ header nav a {
   display: flex;
   flex-direction: column;
   margin-top: 5px;
-  background-image: url("./Image/header-shapes\ mobile.png");
+  background-image: url("./Image/header-shapes-mobile.png");
 }
 
 .title {
