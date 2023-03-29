@@ -680,7 +680,10 @@ hr {
   margin-bottom: 45px;
   border-radius: 8px;
   border-width: 0;
-  padding: 12px 16px;
+  padding: 8px 12px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
 }
 
 .git-in-touch:hover {
@@ -690,7 +693,10 @@ hr {
   margin-bottom: 45px;
   border-radius: 8px;
   border-width: 0;
-  padding: 12px 16px;
+  padding: 8px 12px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
 }
 
 .git-in-touch :active {
@@ -701,4 +707,7 @@ hr {
   border-radius: 8px;
   border-width: 0;
   padding: 12px 16px;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
 }
