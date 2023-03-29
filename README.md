@@ -142,8 +142,8 @@ Opening the index.html with  your browser
 👤 **Ali Shah Safdari**
 
 - GitHub: [@AliShahSafdari](https://github.com/AliShahSafdari)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/linkedinhandle/)
+- Twitter: [@AlishahSafdari](https://twitter.com/AlishahSafdari)
+- LinkedIn: [@ali-shah-safdari-010541215](https://www.linkedin.com/in/ali-shah-safdari-010541215/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -182,14 +182,8 @@ I would like to thank Microverse community for this opportunity to learn new thi
 
 <!-- FAQ (optional) -->
 
-
-
-<!-- LICENSE -->
-
-
-
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
