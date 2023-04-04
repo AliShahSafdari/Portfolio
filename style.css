@@ -52,9 +52,9 @@ html {
   font-weight: 700;
   text-transform: uppercase;
 }
-.info-text:focus {
 
-  outline: 2px solid #273bf3 ;
+.info-text:focus {
+  outline: 2px solid #273bf3;
   padding: 2px;
   border-radius: 4px;
 }
@@ -611,7 +611,6 @@ hr {
     align-items: center;
     margin: auto;
   }
-  
 
   .headlines {
     background-image: url(./Image/Header\ bg2x.png);
