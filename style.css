@@ -47,21 +47,23 @@ html {
 
 .info-text {
   text-decoration: none;
-  color: #6070ff;
+  color: #0e26f8;
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
+}
+.info-text:focus {
+
+  outline: 2px solid #273bf3 ;
+  padding: 2px;
+  border-radius: 4px;
 }
 
 .headlines {
   background-image: url("./Image/header-shapes-mobile.png");
   background-repeat: no-repeat;
   background-position: right;
-
-  /* background-size:contain; */
   background-size: 100%;
-
-  /* background-repeat: no-repeat; */
   background-attachment: unset;
   background-position-x: 9px;
   background-position-y: -6px;
@@ -356,11 +358,11 @@ ul.socail-media-icon1 {
 }
 
 .normal-button {
-  color: #396df2;
+  color: #084bf5;
   border-radius: 8px;
   border-style: solid;
   border-width: 1px;
-  border-color: #396df2;
+  border-color: #084bf5;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -374,12 +376,12 @@ ul.socail-media-icon1 {
 
 .normal-button:hover {
   color: #fff;
-  background-color: #6070ff;
+  background-color: #051ceb;
 }
 
 .normal-button:active {
   color: #fff;
-  background-color: #2230d2;
+  background-color: #030a58;
 }
 
 .normal-button:disabled {
@@ -529,7 +531,7 @@ hr {
 }
 
 .contact-textarea {
-  color: #b3bac5;
+  color: hsla(216, 27%, 85%, 0.733);
   margin-top: 18px;
   border-radius: 8px;
   border-width: 0;
@@ -538,7 +540,7 @@ hr {
 }
 
 .git-in-touch {
-  color: #6070ff;
+  color: #0a22f3;
   margin-top: 20px;
   margin-bottom: 45px;
   border-radius: 8px;
@@ -562,6 +564,7 @@ hr {
 
 .git-in-touch :active {
   background-color: #070c44;
+  border-color: #f8f2f2;
   color: #fff;
   margin-top: 20px;
   margin-bottom: 45px;
@@ -607,6 +610,7 @@ hr {
     align-items: center;
     margin: auto;
   }
+  
 
   .headlines {
     background-image: url(./Image/Header\ bg2x.png);
