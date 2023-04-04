@@ -115,11 +115,11 @@ html {
 }
 
 .works-container {
-  margin-block: 104px;
+  margin-top: 80px;
   display: grid;
   grid-template-columns: 1fr;
-  width: 96%;
-  margin-left: 2%;
+  width: 94%;
+  margin-left: 3%;
   border-radius: 10px;
   background-color: #fff;
   padding: 16px;
