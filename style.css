@@ -837,3 +837,12 @@ hr {
     margin-left: 175px;
   }
 }
+
+/* to fix the resposive in arrow .social-icons */
+
+@media (max-width: 1420px) and (min-width: 768px) {
+  #arrow {
+
+    margin-left:0;
+  }
+}
