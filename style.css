@@ -531,7 +531,7 @@ hr {
 }
 
 .contact-textarea {
-  color: hsla(216, 27%, 85%, 0.733);
+  color: hsla(180, 4%, 5%, 0.733);
   margin-top: 18px;
   border-radius: 8px;
   border-width: 0;
@@ -548,6 +548,7 @@ hr {
   padding: 8px 12px;
   font-size: 17px;
   font-weight: 500;
+  background-color: #fff7f7;
 }
 
 .git-in-touch:hover {
