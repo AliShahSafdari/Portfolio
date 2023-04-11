@@ -49,7 +49,7 @@ html {
   opacity: 0.9;
   top: 0;
   left: 0;
-  background-color: #3a0ddd;
+  background-color: #6070ff;
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -302,7 +302,7 @@ ul.primarytext3 {
   border-top-right-radius: 70px;
 }
 
-.about-my-slef {
+.about-my-self {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -804,7 +804,7 @@ hr {
     height: 100%;
   }
 
-  .about-my-slef {
+  .about-my-self {
     display: flex;
     flex-direction: row;
     justify-content: center;
