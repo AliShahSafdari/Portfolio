@@ -8,6 +8,12 @@
   box-sizing: border-box;
 }
 
+#box {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+}
+
 body {
   background-color: #e5e5e5;
   font-family: "Poppins", sans-serif;
@@ -19,18 +25,56 @@ html {
 }
 
 .container {
-  padding: 24px;
   font-family: "Poppins", sans-serif;
 }
 
 .main-header {
   height: 5rem;
-  padding: 24px;
   background-color: #fff;
 }
 
 .menu-lists {
   display: none;
+}
+
+.sidebar {
+  height: 690vh;
+  width: calc(100vw);
+  position: absolute;
+  display: block;
+  z-index: 10;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  background-color: #6070ff;
+  transition: 0.5s;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  margin-top: 2px;
+  transition: 0.3s;
+}
+
+.sidebar .closebtn {
+  position: relative;
+  top: 10px;
+  margin-left: 80vw;
+  font-size: 36px;
+}
+
+.openbtn {
+  cursor: pointer;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+.openbtn:hover {
+  background-color: #888;
 }
 
 .info {
@@ -47,6 +91,8 @@ html {
 
 .info-text {
   text-decoration: none;
+  margin-top: 24px;
+  margin-left: 24px;
   color: #0e26f8;
   font-size: 20px;
   font-weight: 700;
@@ -252,7 +298,7 @@ ul.primarytext3 {
   border-top-right-radius: 70px;
 }
 
-.about-my-slef {
+.about-my-self {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -355,6 +401,10 @@ ul.socail-media-icon1 {
 
 .socail-media-icon1 a {
   margin-right: 18px;
+}
+
+.item a:hover {
+  color: #999;
 }
 
 .normal-button {
@@ -582,11 +632,9 @@ hr {
   }
 
   .main-header {
-    /* opacity: 0; */
-    background: rgba(76, 175, 80, 0.1);
+    background-color: white;
     position: fixed;
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
     z-index: 6;
   }
 
@@ -594,6 +642,9 @@ hr {
     display: flex;
     list-style-type: none;
     color: #344563;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 12px;
   }
 
   li.item a {
@@ -602,6 +653,10 @@ hr {
     text-decoration: none;
     margin-right: 32px;
     cursor: pointer;
+  }
+
+  li.item a:hover {
+    color: #000;
   }
 
   .info {
@@ -617,9 +672,10 @@ hr {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-y: 10px;
     min-height: 110vh;
     position: relative;
-    top: 50px;
+    top: 80px;
     margin-bottom: 60px;
   }
 
@@ -743,7 +799,7 @@ hr {
     height: 100%;
   }
 
-  .about-my-slef {
+  .about-my-self {
     display: flex;
     flex-direction: row;
     justify-content: center;

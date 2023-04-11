@@ -7,27 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>My Portfolio</title>
+
 </head>
 
 <body>
 
     <!-- nav for mobile -->
-    <header class="main-header">
+    <header class="main-header" id="main-head">
         <nav>
             <div class="info">
                 <a href="#" class="info-text">Ali Shah</a>
-                <img src="./Image/Union.png" alt="menu-icon" class="info-image">
-                <ul class="menu-lists">
-                    <li class="item"><a href="#portfolio">Portfolio</a></li>
-                    <li class="item"><a href="#about">About</a></li>
-                    <li class="item"><a href="#contact">Contact</a></li>
+                <img src="./Image/Union.png" alt="menu-icon" class="info-image openbtn" onclick="openNav()">
+                <ul class="menu-lists" id="mySidebar">
+                    <li class="item must-ignor1"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></li>
+                    <li class="item"><a href="#portfolio" onclick="closeNav()">Portfolio</a></li>
+                    <li class="item"><a href="#about" onclick="closeNav()">About</a></li>
+                    <li class="item"><a href="#contact" onclick="closeNav()">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
         <!-- About section -->
-        <section class="headlines">
+        <section class="headlines" >
             <div class="contain">
                 <div class="about" id="about-info">
                     <h1 class="intro">I’m Ali Shah.<br />
@@ -52,7 +54,7 @@
             </div>
         </section>
 
-        <section class="wraper">
+        <section class="wraper" id="portfolio">
             <div class="works-container fist-works-container">
                 <img src="./Image/SnapshootPortfolio1.png" alt="Tonic-image" class="works-container-image must-ignor1">
                 <img src="./Image/Nature.png" alt="Nature-image" class="works-container-image must-ignor2">
@@ -84,10 +86,9 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="works-container">
-                <img src="./Image/SnapshootPortfolio(3).png" alt="availability-image" class="works-container-image must-ignor1">
+                <img src="./Image/SnapshootPortfolio(3).png" alt="availability-image"
+                    class="works-container-image must-ignor1">
                 <img src="./Image/desktop1.png" alt="Tonic-image" class="works-container-image must-ignor2">
 
                 <div class="wapper-90">
@@ -121,7 +122,8 @@
                 </div>
             </div>
             <div class="works-container fist-works-container">
-                <img src="./Image/Snapshoot Portfolio (2).png" alt="gymfit-image" class="works-container-image must-ignor1">
+                <img src="./Image/Snapshoot Portfolio (2).png" alt="gymfit-image"
+                    class="works-container-image must-ignor1">
                 <img src="./Image/desktop2.png" alt="availability-image" class="works-container-image must-ignor2">
 
                 <div class="wapper-90">
@@ -155,7 +157,8 @@
                 </div>
             </div>
             <div class="works-container">
-                <img src="./Image/SnapshootPortfolio(5).png" alt="Professional-icon" class="works-container-image must-ignor1">
+                <img src="./Image/SnapshootPortfolio(5).png" alt="Professional-icon"
+                    class="works-container-image must-ignor1">
                 <img src="./Image/desktop3.png" alt="availability" class="works-container-image must-ignor2">
 
                 <div class="wapper-90">
@@ -194,7 +197,7 @@
         </section>
     </main>
     <div class="div-background">
-        <section class="about-my-slef">
+        <section class="about-my-self" id="about">
             <div class="top">
                 <div class="text-container">
                     <h2 class="first-text">About <br class="must-ignor"> Myself</h2>
@@ -225,10 +228,10 @@
             <div class="list-skills">
                 <ul class="ul-item">
                     <li class="language">
-                        
+
                         <h4>Languages</h4>
-                        <img  class="arrow" src="Image/Disabled.png" alt="arrow keys">
-                        
+                        <img class="arrow" src="Image/Disabled.png" alt="arrow keys">
+
                     </li>
                     <li>
                         <ul class="web-top">
@@ -249,10 +252,10 @@
                     </li>
 
                     <li class="language">
-                        <h4>Frameworks   </h4>
+                        <h4>Frameworks </h4>
                         <img class="arrow" src="Image/list.png" alt="arrow keys">
                     </li>
-                    
+
                     <hr>
                     <li class="language">
 
@@ -261,35 +264,32 @@
                             <img class="arrow" src="Image/list.png" alt="arrow keys">
                     </li>
                     <hr>
-                </div>
-                </ul>
             </div>
-        </section>
-        <!-- contact form -->
-        <article class="contact-me">
-            <h3 class="contact-title">Contact me</h3>
-            <p class="contact-text">If you have an application you are interested in developing, a feature that you
-                need
-                built or a project
-                that needs coding.
-                I’d love to help with it!</p>
-            <div class="form-container">
-                <form action="https://formspree.io/f/moqzkvjg" method="POST">
-                    <input class="first-name" type="text" name="fullname" maxlength="30" minlength="2"
-                        placeholder="Enter your name" required>
-                    <input class="first-name" type="email" name="email" placeholder="Enter your email" required>
-                    <textarea class="contact-textarea" name="message" id="" required cols="30" rows="10"
-                        placeholder="Write your message here..." maxlength="500"></textarea>
-                    <button class="git-in-touch">Get in touch</button>
-                </form>
-            </div>
-        </article>
+            </ul>
+    </div>
+    </section>
+    <!-- contact form -->
+    <article class="contact-me" id="contact">
+        <h3 class="contact-title">Contact me</h3>
+        <p class="contact-text">If you have an application you are interested in developing, a feature that you
+            need
+            built or a project
+            that needs coding.
+            I’d love to help with it!</p>
+        <div class="form-container">
+            <form action="https://formspree.io/f/moqzkvjg" method="POST">
+                <input class="first-name" type="text" name="fullname" maxlength="30" minlength="2"
+                    placeholder="Enter your name" required>
+                <input class="first-name" type="email" name="email" placeholder="Enter your email" required>
+                <textarea class="contact-textarea" name="message" id="" required cols="30" rows="10"
+                    placeholder="Write your message here..." maxlength="500"></textarea>
+                <button class="git-in-touch">Get in touch</button>
+            </form>
+        </div>
+    </article>
     </div>
 
-
-
-
-
+    <script src="script.js"></script>
 </body>
 
 </html>
