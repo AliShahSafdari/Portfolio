@@ -8,6 +8,12 @@
   box-sizing: border-box;
 }
 
+#box {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+}
+
 body {
   background-color: #e5e5e5;
   font-family: "Poppins", sans-serif;
@@ -25,12 +31,54 @@ html {
 
 .main-header {
   height: 5rem;
-  padding: 24px;
+
+  /* padding: 24px; */
   background-color: #fff;
 }
 
 .menu-lists {
   display: none;
+}
+
+.sidebar {
+  height: 100vh;
+  width: calc(100%);
+  position: fixed;
+  display: block;
+  z-index: 5;
+  opacity: 0.9;
+  top: 0;
+  left: 0;
+  background-color: #3a0ddd;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  margin-top: 2px;
+  transition: 0.3s;
+}
+
+.sidebar .closebtn {
+  position: relative;
+  top: 10px;
+  margin-left: 80vw;
+  font-size: 36px;
+}
+
+.openbtn {
+  cursor: pointer;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+.openbtn:hover {
+  background-color: #888;
 }
 
 .info {
@@ -47,6 +95,8 @@ html {
 
 .info-text {
   text-decoration: none;
+  margin-top: 24px;
+  margin-left: 24px;
   color: #0e26f8;
   font-size: 20px;
   font-weight: 700;
@@ -357,6 +407,10 @@ ul.socail-media-icon1 {
   margin-right: 18px;
 }
 
+.item a:hover {
+  color: #999;
+}
+
 .normal-button {
   color: #084bf5;
   border-radius: 8px;
@@ -582,18 +636,21 @@ hr {
   }
 
   .main-header {
-    /* opacity: 0; */
     background: rgba(76, 175, 80, 0.1);
     position: fixed;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
     z-index: 6;
+    padding: 24px;
   }
 
   .menu-lists {
     display: flex;
     list-style-type: none;
     color: #344563;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 12px;
   }
 
   li.item a {
@@ -602,6 +659,10 @@ hr {
     text-decoration: none;
     margin-right: 32px;
     cursor: pointer;
+  }
+
+  li.item a:hover {
+    color: #000;
   }
 
   .info {
