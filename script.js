@@ -8,15 +8,15 @@ window.addEventListener('resize', () => {
   }
 });
 
-function openNav() {
-  document.getElementById('mySidebar').classList.add('sidebar');
-  document.getElementById('mySidebar').classList.remove('menu-lists');
-}
+// function openNav() {
+// document.getElementById('mySidebar').classList.add('sidebar');
+// document.getElementById('mySidebar').classList.remove('menu-lists');
+// }
 
-function closeNav() {
-  document.getElementById('mySidebar').classList.remove('sidebar');
-  document.getElementById('mySidebar').classList.add('menu-lists');
-}
+// function closeNav() {
+// document.getElementById('mySidebar').classList.remove('sidebar');
+// document.getElementById('mySidebar').classList.add('menu-lists');
+// }
 
 const projects = [
   {
@@ -249,14 +249,11 @@ form.addEventListener('submit', (event) => {
   const errorMessages = [];
   if (nameInput.value.trim() === '') {
     errorMessages.push('Name field is required');
-  }
-  else if (emailInput.value.trim() === '') {
+  } else if (emailInput.value.trim() === '') {
     errorMessages.push('Email field is required');
-  }
-  else if (emailInput.value !== emailInput.value.toLowerCase()) {
+  } else if (emailInput.value !== emailInput.value.toLowerCase()) {
     errorMessages.push('Email must be in lowercase');
-  }
-  else if (messageInput.value.trim() === '') {
+  } else if (messageInput.value.trim() === '') {
     errorMessages.push('Message field is required');
   }
   if (errorMessages.length > 0) {
