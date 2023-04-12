@@ -1,130 +1,130 @@
 const cardSection = document.getElementById('portfolio');
-window.addEventListener("resize", () => {
-    var screenWidth = window.innerWidth;
+window.addEventListener('resize', () => {
+  const screenWidth = window.innerWidth;
 
-    if (screenWidth >= 768) {
-        document.getElementById("mySidebar").classList.remove('sidebar');
-        document.getElementById("mySidebar").classList.add('menu-lists');
-    }
+  if (screenWidth >= 768) {
+    document.getElementById('mySidebar').classList.remove('sidebar');
+    document.getElementById('mySidebar').classList.add('menu-lists');
+  }
 });
 
 function openNav() {
-    document.getElementById("mySidebar").classList.add('sidebar');
-    document.getElementById("mySidebar").classList.remove('menu-lists');
+  document.getElementById('mySidebar').classList.add('sidebar');
+  document.getElementById('mySidebar').classList.remove('menu-lists');
 }
 
 function closeNav() {
-    document.getElementById("mySidebar").classList.remove('sidebar');
-    document.getElementById("mySidebar").classList.add('menu-lists');
+  document.getElementById('mySidebar').classList.remove('sidebar');
+  document.getElementById('mySidebar').classList.add('menu-lists');
 }
 
 const projects = [
-    {
-        id: 'Project1',
-        title: 'Tonic',
-        title1: 'Tonic',
-        company: 'CANOPY',
-        company1: 'CANOPY',
-        icon: './Image/Counter.png',
-        specialization: 'Back End Dev',
-        specialization1: 'Back End Dev',
-        year: '2015',
-        year1: '2015',
-        description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-        description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-        technologies: {
-            tech1: 'html',
-            techE: 'Ruby on rials',
-            tech2: 'css',
-            tech3: 'javaScript',
-        },
-        details: 'See project',
-        imageMobile: './Image/SnapshootPortfolio1.png',
-        imageDesktop: './Image/Nature.png',
-        live: 'https://alishahsafdari.github.io/Protfolio/',
-        source: 'https://github.com/AliShahSafdari/Protfolio',
+  {
+    id: 'Project1',
+    title: 'Tonic',
+    title1: 'Tonic',
+    company: 'CANOPY',
+    company1: 'CANOPY',
+    icon: './Image/Counter.png',
+    specialization: 'Back End Dev',
+    specialization1: 'Back End Dev',
+    year: '2015',
+    year1: '2015',
+    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: {
+      tech1: 'html',
+      techE: 'Ruby on rials',
+      tech2: 'css',
+      tech3: 'javaScript',
     },
-    {
-        id: 'Project2',
-        title: 'Multi-Post',
-        title1: 'Multi-Post',
-        company: 'CANOPY',
-        company1: 'FACEBOOK',
-        icon: './Image/Counter.png',
-        specialization: 'B2ack End Dev',
-        specialization1: 'Full Stack Dev',
-        year: '2015',
-        year1: '2015',
-        description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-        description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-        technologies: {
-            tech1: 'html',
-            techE: 'Ruby on rials',
-            tech2: 'css',
-            tech3: 'javaScript',
-        },
-        details: 'See project',
-        imageMobile: './Image/SnapshootPortfolio(3).png',
-        imageDesktop: './Image/desktop1.png',
-        live: 'https://alishahsafdari.github.io/Protfolio/',
-        source: 'https://github.com/AliShahSafdari/Protfolio',
+    details: 'See project',
+    imageMobile: './Image/SnapshootPortfolio1.png',
+    imageDesktop: './Image/Nature.png',
+    live: 'https://alishahsafdari.github.io/Protfolio/',
+    source: 'https://github.com/AliShahSafdari/Protfolio',
+  },
+  {
+    id: 'Project2',
+    title: 'Multi-Post',
+    title1: 'Multi-Post',
+    company: 'CANOPY',
+    company1: 'FACEBOOK',
+    icon: './Image/Counter.png',
+    specialization: 'B2ack End Dev',
+    specialization1: 'Full Stack Dev',
+    year: '2015',
+    year1: '2015',
+    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    technologies: {
+      tech1: 'html',
+      techE: 'Ruby on rials',
+      tech2: 'css',
+      tech3: 'javaScript',
     },
-    {
-        id: 'Project3',
-        title: 'Tonic',
-        title1: 'Facebook 360',
-        company: 'CANOPY',
-        company1: 'FACEBOOK 360',
-        icon: './Image/Counter.png',
-        specialization: 'B2ack End Dev',
-        specialization1: 'Full Stack Dev',
-        year: '2015',
-        year1: '2015',
-        description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-        description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-        technologies: {
-            tech1: 'html',
-            techE: 'Ruby on rials',
-            tech2: 'css',
-            tech3: 'javaScript',
-        },
-        details: 'See project',
-        imageMobile: './Image/Snapshoot Portfolio (2).png',
-        imageDesktop: './Image/desktop2.png',
-        live: 'https://alishahsafdari.github.io/Protfolio/',
-        source: 'https://github.com/AliShahSafdari/Protfolio',
+    details: 'See project',
+    imageMobile: './Image/SnapshootPortfolio(3).png',
+    imageDesktop: './Image/desktop1.png',
+    live: 'https://alishahsafdari.github.io/Protfolio/',
+    source: 'https://github.com/AliShahSafdari/Protfolio',
+  },
+  {
+    id: 'Project3',
+    title: 'Tonic',
+    title1: 'Facebook 360',
+    company: 'CANOPY',
+    company1: 'FACEBOOK 360',
+    icon: './Image/Counter.png',
+    specialization: 'B2ack End Dev',
+    specialization1: 'Full Stack Dev',
+    year: '2015',
+    year1: '2015',
+    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    technologies: {
+      tech1: 'html',
+      techE: 'Ruby on rials',
+      tech2: 'css',
+      tech3: 'javaScript',
     },
-    {
-        id: 'Project4',
-        title: 'Multi-Post<br>Stories',
-        title1: 'Uber Navigation',
-        company: 'CANOPY',
-        company1: 'Uber',
-        icon: './Image/Counter.png',
-        specialization: 'Back End Dev',
-        specialization1: 'Lead Developer',
-        year: '2015',
-        year1: '2018',
-        description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-        description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-        technologies: {
-            tech1: 'html',
-            techE: 'Ruby on rials',
-            tech2: 'css',
-            tech3: 'javaScript',
-        },
-        details: 'See project',
-        imageMobile: './Image/SnapshootPortfolio(5).png',
-        imageDesktop: './Image/desktop3.png',
-        live: 'https://alishahsafdari.github.io/Protfolio/',
-        source: 'https://github.com/AliShahSafdari/Protfolio',
+    details: 'See project',
+    imageMobile: './Image/Snapshoot Portfolio (2).png',
+    imageDesktop: './Image/desktop2.png',
+    live: 'https://alishahsafdari.github.io/Protfolio/',
+    source: 'https://github.com/AliShahSafdari/Protfolio',
+  },
+  {
+    id: 'Project4',
+    title: 'Multi-Post<br>Stories',
+    title1: 'Uber Navigation',
+    company: 'CANOPY',
+    company1: 'Uber',
+    icon: './Image/Counter.png',
+    specialization: 'Back End Dev',
+    specialization1: 'Lead Developer',
+    year: '2015',
+    year1: '2018',
+    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
+    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    technologies: {
+      tech1: 'html',
+      techE: 'Ruby on rials',
+      tech2: 'css',
+      tech3: 'javaScript',
     },
+    details: 'See project',
+    imageMobile: './Image/SnapshootPortfolio(5).png',
+    imageDesktop: './Image/desktop3.png',
+    live: 'https://alishahsafdari.github.io/Protfolio/',
+    source: 'https://github.com/AliShahSafdari/Protfolio',
+  },
 ];
 
 // let count = 1;
 projects.forEach((project) => {
-    const cardDiv = document.createElement('div');
-    cardDiv.innerHTML = `<div class="works-container fist-works-container">
+  const cardDiv = document.createElement('div');
+  cardDiv.innerHTML = `<div class="works-container fist-works-container">
    <img src="${project.imageMobile}" alt="Tonic-image" class="works-container-image must-ignor1">
    <img src="${project.imageDesktop}" alt="Nature-image" class="works-container-image must-ignor2">
 
@@ -158,8 +158,8 @@ projects.forEach((project) => {
            <button class="project" id =${project.id}>${project.details}</button>
        </div>
    </div>
-</div>`
-    cardSection.append(cardDiv);
+</div>`;
+  cardSection.append(cardDiv);
 });
 
 const seeproject = document.querySelectorAll('.project');
@@ -167,9 +167,9 @@ const overlay = document.getElementById('overCover');
 const popup = document.querySelector('.popup');
 const over = document.querySelector('.over');
 seeproject.forEach((p) => p.addEventListener('click', (p) => {
-    const { id } = p.target;
-    const pop = projects.find((p) => p.id === id);
-    popup.innerHTML = `
+  const { id } = p.target;
+  const pop = projects.find((p) => p.id === id);
+  popup.innerHTML = `
   <div class="titles">
    <div class="tile">
   <h2 class="primarytext-title must-ignor1">${pop.title}</h2>
@@ -211,26 +211,26 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
         </div>
  </div>`;
 
-    const live = document.getElementById('live');
-    const source = document.getElementById('source');
+  const live = document.getElementById('live');
+  const source = document.getElementById('source');
 
-    live.addEventListener('click', () => {
-        document.location.href = pop.live;
-    });
+  live.addEventListener('click', () => {
+    document.location.href = pop.live;
+  });
 
-    source.addEventListener('click', () => {
-        document.location.href = pop.source;
-    });
+  source.addEventListener('click', () => {
+    document.location.href = pop.source;
+  });
 
-    overlay.classList.toggle('active');
-    popup.classList.toggle('active');
-    over.classList.toggle('active');
+  overlay.classList.toggle('active');
+  popup.classList.toggle('active');
+  over.classList.toggle('active');
 
-    const close = document.querySelector('.close');
+  const close = document.querySelector('.close');
 
-    close.addEventListener('click', () => {
-        popup.classList.remove('active');
-        over.classList.remove('active');
-        overlay.classList.remove('active');
-    });
+  close.addEventListener('click', () => {
+    popup.classList.remove('active');
+    over.classList.remove('active');
+    overlay.classList.remove('active');
+  });
 }));
