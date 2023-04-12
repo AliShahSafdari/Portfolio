@@ -8,16 +8,17 @@ window.addEventListener('resize', () => {
   }
 });
 
- function openNav() {
-   document.getElementById('mySidebar').classList.add('sidebar');
-   document.getElementById('mySidebar').classList.remove('menu-lists');
- }
+function openNav() {
+  document.getElementById('mySidebar').classList.add('sidebar');
+  document.getElementById('mySidebar').classList.remove('menu-lists');
+}
 
 function closeNav() {
   document.getElementById('mySidebar').classList.remove('sidebar');
   document.getElementById('mySidebar').classList.add('menu-lists');
 }
-
+openNav();
+closeNav();
 const projects = [
   {
     id: 'Project1',
