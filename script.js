@@ -192,14 +192,18 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
       ${pop.description1} 
       <br>
       <br>
-      <span class="must-ignor2"> ${pop.description1}</span>
+      <span class="must-ignor2"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.</span>
     </p>
-    <ul class="primarytext3 techno">
-    <li class="lang">${pop.technologies.tech1}</li>
-    <li class="lang">${pop.technologies.tech2}</li>
-    <li class="lang JavaScript">${pop.technologies.tech3}</li>  
+    <ul class="primarytext33 techno">
+      <li>${pop.technologies.tech1}</li>
+      <li>${pop.technologies.tech2}</li>
+      <li>${pop.technologies.tech3}</li> 
     </ul>
-    
+    <ul class="primarytext34 techno">
+    <li class="not">Ruby</li>
+    <li class="not">Boostrap</li>  
+  </ul
+
         <hr class="invisable">
         <div class="btns">
           <button type="button" id="live" class="but">See live &nbsp; &nbsp;

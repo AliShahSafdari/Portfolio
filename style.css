@@ -109,6 +109,23 @@
 .btns {
   margin-left: 30px;
 }
+
+.primarytext33 {
+  margin-bottom: 8px;
+}
+
+.primarytext33 li {
+  display: inline-block;
+  margin-left: 5px;
+  color: #6070ff;
+  background-color: #ebebff;
+  padding: 3px 8px;
+  border-radius: 10px;
+}
+
+.primarytext34 li {
+  display: none;
+}
 .invisable { visibility: hidden; }
 
 .but {
@@ -322,9 +339,10 @@ html {
 }
 
 .btns {
-  margin-top: -4%;
+  margin-top: 10%;
   display: flex;
-  gap: 2px;
+  gap: 3px;
+  font-size: 20px;
   text-transform: lowercase;
 }
 
@@ -533,7 +551,7 @@ ul.socail-media-icon1 {
   line-height: 24px;
   word-spacing: 3px;
   margin-left: 20px;
-  padding: 8px 12px;
+  padding: 5px 12px;
   margin-top: 5px;
   text-align: center;
 }
@@ -747,28 +765,50 @@ hr {
   }
 
   .imageDesktop {
-    width: 90%;
+    width: 95%;
     margin-left: 2%;
     margin-top: 1%;
     margin-bottom: 1%;
-    height: 50vh;
+    height: 41.5vh;
   }
 
   .tonic-text {
     float: left;
-    width: 70%;
+    width: 63%;
+    margin-right: auto;
+    margin-bottom: 5%;
   }
 
   .techno,
   .btns {
     float: right;
-    width: 23%;
+    margin-left: 0%;
+    width: 30%;
   }
 
-  /* .primarytext3{
-    display: grid;
+  .btns {
+    margin-top: 2%;
   }
-   */
+
+  .but {
+    width: 45%;
+    color: #6070ff;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #6070ff;
+  }
+
+  .primarytext34 li {
+    display: inline-block;
+    margin-left: 5px;
+    color: #6070ff;
+    background-color: #ebebff;
+    padding: 3px 8px;
+    border-radius: 10px;
+  }
+
   .info-image {
     display: none;
   }
@@ -1042,7 +1082,7 @@ hr {
 }
 
 @media (max-device-width: 500px) {
-  .btns {
+  /* .btns {
     margin-top: 1%;
-  }
+  } */
 }
