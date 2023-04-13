@@ -17,7 +17,8 @@ function closeNav() {
   document.getElementById('mySidebar').classList.remove('sidebar');
   document.getElementById('mySidebar').classList.add('menu-lists');
 }
-
+openNav();
+closeNav();
 const projects = [
   {
     id: 'Project1',
@@ -238,3 +239,28 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
     overlay.classList.remove('active');
   });
 }));
+
+const form = document.querySelector('form');
+const nameInput = document.querySelector('input[name="fullname"]');
+const emailInput = document.querySelector('input[name="email"]');
+const messageInput = document.querySelector('textarea[name="message"]');
+const errorMessage = document.getElementById('error');
+
+form.addEventListener('submit', (event) => {
+  const errorMessages = [];
+  if (nameInput.value.trim() === '') {
+    errorMessages.push('Name field is required');
+  } else if (emailInput.value.trim() === '') {
+    errorMessages.push('Email field is required');
+  } else if (emailInput.value !== emailInput.value.toLowerCase()) {
+    errorMessages.push('Email must be in lowercase');
+  } else if (messageInput.value.trim() === '') {
+    errorMessages.push('Message field is required');
+  }
+  if (errorMessages.length > 0) {
+    event.preventDefault();
+    errorMessage.textContent = errorMessages.join('. ');
+  } else {
+    errorMessage.textContent = '';
+  }
+});
