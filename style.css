@@ -69,7 +69,6 @@
 }
 
 .errors {
-  margin-left: 5%;
   margin-bottom: 35px;
   color: red;
   font-family: 'Poppins', sans-serif;
@@ -1075,6 +1074,8 @@ hr {
   .git-in-touch {
     margin-left: 175px;
   }
+  .errors {
+    margin-left: 28%;}
 }
 
 @media (max-device-width: 500px) {
