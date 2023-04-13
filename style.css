@@ -1074,8 +1074,10 @@ hr {
   .git-in-touch {
     margin-left: 175px;
   }
+
   .errors {
-    margin-left: 28%;}
+    margin-left: 28%;
+  }
 }
 
 @media (max-device-width: 500px) {
