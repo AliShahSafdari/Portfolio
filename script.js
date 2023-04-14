@@ -17,8 +17,9 @@ function closeNav() {
   document.getElementById('mySidebar').classList.remove('sidebar');
   document.getElementById('mySidebar').classList.add('menu-lists');
 }
-openNav();
-closeNav();
+// openNav();
+// closeNav();
+
 const projects = [
   {
     id: 'Project1',
@@ -122,7 +123,6 @@ const projects = [
   },
 ];
 
-// let count = 1;
 projects.forEach((project) => {
   const cardDiv = document.createElement('div');
   cardDiv.innerHTML = `<div class="works-container fist-works-container">
