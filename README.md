@@ -1,189 +1,30 @@
-<a name="readme-top"></a>
+<h1 align="center">Hi 👋, I'm AliShah Safdari</h1>
+<h3 align="center">A passionate full-stack developer from Afghanistan</h3>
+<img align="center" alt="Coding" width="1500" src="https://www.web24zone.com/wp-content/uploads/2022/09/2c778e_89d09c380b7b4a09bcdbcb329c4734b3_mv2.gif">
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=alishahsafdari&label=Profile%20views&color=0e75b6&style=flat" alt="alishahsafdari" /> </p>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
+- 🌱 I’m currently learning **in Microverse remote software development school**
 
-Modify this file to match your project and remove sections that don't apply.
+- 👨‍💻 All of my projects are available at [https://github.com/AliShahSafdari](https://github.com/AliShahSafdari)
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Acknowledgements
-- License
+- 💬 Ask me about **HTML5, CSS3, JavaScript,and Node.js**
 
-OPTIONAL SECTIONS:
-- FAQ
+- 📫 How to reach me **alishahsafdari905@gmail.com**
 
-After you're finished please remove all the comments and instructions!
--->
+- ⚡ Fun fact **I think I fun in boxing in free times**
 
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
-  <br/>
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/alishahsafdari" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="alishahsafdari" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/in/ali-shah-safdari-010541215" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="in/ali-shah-safdari-010541215" height="30" width="40" /></a>
+</p>
 
-  <!-- <h3><b>Microverse README Template</b></h3> -->
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/> </a> </p>
 
-</div>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=alishahsafdari&show_icons=true&locale=en&layout=compact" alt="alishahsafdari" /></p>
 
-<!-- TABLE OF CONTENTS -->
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=alishahsafdari&show_icons=true&locale=en" alt="alishahsafdari" /></p>
 
-# 📗 Table of Contents
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=alishahsafdari&" alt="alishahsafdari" /></p>
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 [Ali's portfolio website] <a name="about-project"></a>
-
-> This is my second Microverse Project. It is based on how to build my portfolio and make it responsive to various devices
-
-**[Ali's portfolio website]** is a website that is used to test for responsiveness to mobile devices
-
-## 🛠 Built With <a name="HTML and CSS"></a>
-
-### Tech Stack <a name="Front end"></a>
-
-> This is a desk-top browser website.
-
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="#">HTML</a></li>
-    <li><a href="#">CSS</a></li>
-    <li><a href="#">JS</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-### Key Features 
-- **[It has a header for navigation]**
-- **[There is a headline section to know more about me and click on the links to connect with me directly]**
-- **[There is a works section to display my recent works]**
-- **[There is a skills section to showcase the skills I have in terms of programming]**
-- **[There is a form section to write me directly about any questions]**
-- **[The portfolio is mobile and desktop responsive]**
-- **[There is a pop-up window for when you click on the see project button]**
-- **[There is form validation for all input fields]**
-- **[Data are stored in local storage]**
-
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="#"></a>
-
-- [Live Demo Link](https://alishahsafdari.github.io/Protfolio/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-<!-- To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-In order to run this project you need:
-
-- A browser that supports html5 and css3
-
-### Setup
-
-Clone this repository to your desired folder:
-
-
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:AliShahSafdari/Protfolio.git
-```
--
-
-### Install
-
-Install this project with:
-
-- Clone the code into your machine and run test in an editor of your choice(E.g VScode). -->
-### Usage
-Opening the index.html with  your browser
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Author <a name="authors">Ali Shah Safdari</a>
-
-👤 **Ali Shah Safdari**
-
-- GitHub: [@AliShahSafdari](https://github.com/AliShahSafdari)
-- Twitter: [@AlishahSafdari](https://twitter.com/AlishahSafdari)
-- LinkedIn: [@ali-shah-safdari-010541215](https://www.linkedin.com/in/ali-shah-safdari-010541215/)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **[Integrate more dynamic styles with css frameworks]**
-- [ ] **[Develop a database to store information from people who sends information via email]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Feel free to check the [issues page](https://github.com/AliShahSafdari/Protfolio/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project or would love to tell me ways to improve it, contact me on LinkedIn or Twitter. It will be a pleasure to hear from you and maybe collaborate on more projects.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-I would like to thank Microverse community for this opportunity to learn new things.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
