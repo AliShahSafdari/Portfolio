@@ -91,7 +91,7 @@ const projects = [
     },
     details: 'See project',
     imageMobile: './Image/Snapshoot Portfolio (2).png',
-    imageDesktop: './Image/desktop2.png',
+    imageDesktop: './Image/capston project.JPG',
     live: 'https://alishahsafdari.github.io/Protfolio/',
     source: 'https://github.com/AliShahSafdari/Protfolio',
   },
