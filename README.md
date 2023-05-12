@@ -2,12 +2,12 @@
 
 
 
-<div align="center">
+<div >
   You are encouraged to replace this logo with your own! Otherwise you can also remove it.
-  <img src="./Image/capston project.JPG" alt="logo" width="140"  height="auto" />
+  <img src="./Image/capston project.JPG" alt="logo" width="100%"  height="auto" />
 ## 🚀 Live Demo <a name="#"></a>
 
-- [Live Demo Link](https://alishahsafdari.github.io/Protfolio/)
+- [Live Demo Link](https://alishahsafdari.github.io/Capstone-Project/)
   <br/>
 
   <!-- <h3><b>Microverse README Template</b></h3> -->
