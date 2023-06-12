@@ -6,8 +6,8 @@
   You are encouraged to replace this logo with your own! Otherwise you can also remove it.
   <img src="./Image/capston project.JPG" alt="logo" width="100%"  height="auto" />
 ## 🚀 Live Demo <a name="#"></a>
-
 - [Live Demo Link](https://alishahsafdari.github.io/Capstone-Project/)
+  
 ##   GitHub Source Code <a name="#"></a>
 - [GitHub Source Code](https://github.com/AliShahSafdari/Capstone-Project)
   
@@ -83,7 +83,7 @@
 
 ## 🚀 Live Demo <a name="#"></a>
 
-- [Live Demo Link](https://alishahsafdari.github.io/Protfolio/)
+- [Live Demo Link](https://alishahsafdari.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
