@@ -130,7 +130,7 @@ Opening the index.html with  your browser
 
 - GitHub: [@AliShahSafdari](https://github.com/AliShahSafdari)
 - Twitter: [@AlishahSafdari](https://twitter.com/AlishahSafdari)
-- LinkedIn: [@ali-shah-safdari-010541215](https://www.linkedin.com/in/ali-shah-safdari-010541215/)
+- LinkedIn: [@ali-shah-safdari-010541215](https://www.linkedin.com/in/alishahsafdari/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
