@@ -22,53 +22,54 @@ closeNav();
 const projects = [
   {
     id: 'Project1',
-    title: 'Tonic',
-    title1: 'Tonic',
-    company: 'CANOPY',
-    company1: 'CANOPY',
+    title: 'WeatherHub',
+    title1: 'WeatherHub',
+    company: 'Microvers',
+    company1: 'Microvers',
     icon: './Image/Counter.png',
     specialization: 'Back End Dev',
     specialization1: 'Back End Dev',
-    year: '2015',
-    year1: '2015',
-    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    year: '2023',
+    year1: '2023',
+    description: 'The WeatherHub shows the waeather<br class="must-ignor">in Major cities and user <br class="must-ignor"> will know these cities weather.',
+    description1: 'The WeatherHub shows the waeather<br class="must-ignor">in Major cities and user <br class="must-ignor"> will know these cities weather.',
     technologies: {
-      tech1: 'html',
-      techE: 'Ruby on rials',
-      tech2: 'css',
-      tech3: 'javaScript',
+      tech1: 'HTML',
+      techE: 'ReactRedux',
+      tech2: 'CSS',
+      tech3: 'JavaScript',
     },
     details: 'See project',
-    imageMobile: './Image/SnapshootPortfolio1.png',
-    imageDesktop: './Image/Nature.png',
-    live: 'https://alishahsafdari.github.io/Protfolio/',
-    source: 'https://github.com/AliShahSafdari/Protfolio',
+    imageMobile: './Image/WheaterHub.png',
+    imageDesktop: './Image/WheaterHub.png',
+    live: 'https://weather-1glk.onrender.com/',
+    source: 'https://github.com/AliShahSafdari/weather',
   },
   {
     id: 'Project2',
-    title: 'Multi-Post',
-    title1: 'Multi-Post',
-    company: 'CANOPY',
-    company1: 'FACEBOOK',
+    title: 'Budget-App',
+    title1: 'Budget-App',
+    company: 'Microverse',
+    company1: 'Microverse',
     icon: './Image/Counter.png',
-    specialization: 'B2ack End Dev',
+    specialization: 'Full Stack Dev',
     specialization1: 'Full Stack Dev',
-    year: '2015',
-    year1: '2015',
-    description: 'A daily selection of privately <br class="must-ignor">personalized reads;no accounts or <br class="must-ignor">sign-ups required.',
-    description1: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+    year: '2023',
+    year1: '2023',
+    description: 'Budtet-app is a mobile web application <br class="must-ignor"> and it is used for budget management.<br class="must-ignor">user login is required.',
+    description1: 'Budtet-app is a mobile web application <br class="must-ignor"> and it is used for budget management.<br class="must-ignor">user login is required.',
     technologies: {
       tech1: 'html',
       techE: 'Ruby on rials',
       tech2: 'css',
       tech3: 'javaScript',
+      tech4: 'ReactRedux',
     },
     details: 'See project',
-    imageMobile: './Image/SnapshootPortfolio(3).png',
-    imageDesktop: './Image/desktop1.png',
-    live: 'https://alishahsafdari.github.io/Protfolio/',
-    source: 'https://github.com/AliShahSafdari/Protfolio',
+    imageMobile: './Image/newBudgetcomputer.png',
+    imageDesktop: './Image/newBudgetcomputer.png',
+    live: 'https://budget-app-ax9d.onrender.com/',
+    source: 'https://github.com/AliShahSafdari/budget-app',
   },
   {
     id: 'Project3',
@@ -153,6 +154,9 @@ projects.forEach((project) => {
            <li class="lang must-ignor2">${project.technologies.techE}</li>
            <li class="lang">${project.technologies.tech2}</li>
            <li class="lang JavaScript">${project.technologies.tech3}</li>
+           <li class="lang JavaScript" style="display: ${project.technologies.tech4 ? 'block' : 'none'}">
+  ${project.technologies.tech4}
+</li>
        </ul>
 
        <div class="primarytext4">
@@ -193,7 +197,7 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
       ${pop.description1} 
       <br>
       <br>
-      <span class="must-ignor2"> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.</span>
+      ${pop.description1} 
     </p>
     <ul class="primarytext33 techno">
       <li>${pop.technologies.tech1}</li>
