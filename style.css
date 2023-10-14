@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+/* Apply the Poppins font to the body */
+/* body {
+  font-family: "Poppins", sans-serif; */
+/* } */
 *,
 *::before,
 *::after {
@@ -7,6 +11,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+[class^="fa-"], [class*=" fa-"] {
+  font-family: "FontAwesome", sans-serif;
 }
 
 #box {
