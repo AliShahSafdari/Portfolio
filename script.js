@@ -123,10 +123,12 @@ const projects = [
   },
 ];
 
-// let count = 1;
+let count = 1;
 projects.forEach((project) => {
+  const isEven = count % 2 === 0;
+  count += 1;
   const cardDiv = document.createElement('div');
-  cardDiv.innerHTML = `<div class="works-container fist-works-container">
+  cardDiv.innerHTML = `<div class="works-container ${isEven ? 'even' : 'odd'}">
    <img src="${project.imageMobile}" alt="Tonic-image" class="works-container-image must-ignor1">
    <img src="${project.imageDesktop}" alt="Nature-image" class="works-container-image must-ignor2">
 
