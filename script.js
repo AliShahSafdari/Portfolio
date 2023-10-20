@@ -270,3 +270,54 @@ form.addEventListener('submit', (event) => {
     errorMessage.textContent = '';
   }
 });
+
+// let coll = document.getElementsByClassName("collapsible");
+// let i;
+
+// coll[0].classList.add("active");
+// coll[0].nextElementSibling.style.maxHeight = coll[0].nextElementSibling.scrollHeight + "px";
+// for (i = 0; i < coll.length; i++) {
+//   coll[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     let content = this.nextElementSibling;
+
+//     // Close all other collapsible sections
+//     for (let j = 0; j < coll.length; j++) {
+//       if (coll[j] !== this) {
+//         coll[j].classList.remove("active");
+//         coll[j].nextElementSibling.style.maxHeight = null;
+//       }
+//     }
+
+//     if (content.style.maxHeight){
+//       content.style.maxHeight = null;
+//     } else {
+//       content.style.maxHeight = content.scrollHeight + "px";
+//     } 
+//   });
+// }
+
+var coll = document.getElementsByClassName("collapsible");
+var i;  
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("custom-active");
+    var content = this.nextElementSibling;
+    // Close all other collapsible sections
+    for (var j = 0; j < coll.length; j++) {
+      if (coll[j] !== this) {
+        coll[j].classList.remove("custom-active");
+        coll[j].nextElementSibling.classList.remove("active-content");
+      }
+    }
+
+    if (content.classList.contains("active-content")) {
+      content.classList.remove("active-content");
+    } else {
+      content.classList.add("active-content");
+    }
+  });
+}
+coll[0].classList.add("custom-active");
+coll[0].nextElementSibling.classList.add("active-content");

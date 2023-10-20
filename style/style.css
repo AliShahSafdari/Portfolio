@@ -435,40 +435,24 @@ ul.primarytext3 {
   flex-direction: column;
   align-items: center;
   padding-top: 70px;
-  padding-right: 10px;
-  width: 80%;
-  min-height: 825px;
-  top: 3506px;
+  /* min-height: 825px; */
   margin-top: 100px;
-  margin-left: 10px;
 }
 
 .top {
   display: grid;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 0;
-  padding: 0;
   background-color: #fff;
-  width: 330px;
-  height: 350px;
   align-self: center;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .list-skills {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0;
-  width: 320px;
   height: 480.15px;
   margin-top: 10px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
 }
 
 .text-container {
@@ -739,4 +723,56 @@ hr {
   background-color: #070c44;
   border-color: #f8f2f2;
   color: #fff;
+}
+
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:after {
+  content: '\003E'; 
+  color: black;
+  float: right;
+  font-size: 24px;
+  margin-left: 5px;
+}
+.active, .collapsible:hover {
+  background-color: #f7f7f9;
+}
+
+.active:after {
+  content: '\2228';
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+}
+
+.content {
+  padding: 10px 18px; 
+  display: none;
+   background-color: #f1f1f1; 
+}
+
+.active-content {
+  display: block; /* Display content when active */
+}
+.web-top{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.custom-active {
+  background-color: #555;
+}
+
+.custom-active:after {
+  content: '\2228';
+  /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  */
 }
