@@ -226,9 +226,10 @@
   .about-my-self {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    padding: 5% 7%;
+  }
+  .about-my-self .top{
+    flex: 1 0;
   }
 
   .text-container {
@@ -241,8 +242,9 @@
   }
 
   .list-skills {
-    width: 50%;
+    flex:2 0;
     padding-top: 40px;
+    height: auto;
   }
 
   .ul-item {
@@ -258,11 +260,13 @@
   }
 
   .web-top {
-    width: 60%;
+    /* width: 60%; */
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 2px;
-    padding-left: -20px;
+    gap: 4%;
+    padding: 0;
+    /* padding-left: -20px; */
   }
 
   .web-lang {
