@@ -226,10 +226,12 @@
   .about-my-self {
     display: flex;
     flex-direction: row;
-    padding: 5% 7%;
+    padding: 10% 7%;
+    padding-bottom: 15%;
   }
   .about-my-self .top{
-    flex: 1 0;
+    flex: 1 ;
+    border: 1px solid red;
   }
 
   .text-container {
@@ -242,11 +244,15 @@
   }
 
   .list-skills {
-    flex:2 0;
-    padding-top: 40px;
+    flex:2;
     height: auto;
+    border: 1px solid green;
   }
+  
 
+  /* .list-skills-ul li {
+    min-width: 46vw;
+} */
   .ul-item {
     width: 100%;
   }
@@ -260,27 +266,25 @@
   }
 
   .web-top {
-    /* width: 60%; */
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     align-items: center;
-    gap: 4%;
+    gap: 5%;
     padding: 0;
-    /* padding-left: -20px; */
+  }
+  .web-top1 {
+    display: none;
   }
 
   .web-lang {
-    width: 110px;
+
     height: 100px;
     padding-bottom: 10px;
-    display: block;
-    margin: 0 auto;
-    padding-right: 20px;
   }
 
   .web-lang img,
   .web-lang span {
-    margin-left: 7px;
+    /* margin-left: 7px; */
   }
 
   hr {

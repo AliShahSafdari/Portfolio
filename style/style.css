@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: auto;
 }
 
 #box {
@@ -304,6 +305,7 @@ html {
 
 .works-container-image {
   width: 100%;
+  align-self: center;
 }
 
 .must-ignor2 {
@@ -401,7 +403,6 @@ ul.primarytext3 {
   font-size: 17px;
   line-height: 24px;
   word-spacing: 3px;
-  margin-top: -4px;
   padding: 8px 12px;
   text-align: center;
   background-color: #fff;
@@ -427,12 +428,12 @@ ul.primarytext3 {
 .about-my-self {
   background-color: #fff;
   border-top-right-radius: 70px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 70px;
   margin-top: 100px;
+  padding-bottom: 25%;
 }
 
 .top {
@@ -447,9 +448,15 @@ ul.primarytext3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 480.15px;
   margin-top: 10px;
 }
+.list-skills-ul{
+  list-style-type: none;
+}
+ 
+ul .list-skills-li {
+ min-width: 80vw; 
+ } 
 
 .text-container {
   display: grid;
@@ -603,7 +610,7 @@ ul.socail-media-icon1 {
 .web-lang {
   display: flex;
   flex-direction: row;
-  height: 50.72px;
+  height: 54.72px;
   width: 290.5px;
   border-radius: 10px;
   margin-top: 0;
@@ -651,7 +658,7 @@ hr {
   border-top-left-radius: 60px;
   background-color: #6070ff;
   width: 100%;
-  margin-top: 15vh;
+  margin-top: -15vh;
   background-image: url("../Image/contact\ form\ shapes-mobile@2x.png");
   background-repeat: no-repeat;
   background-position: right;
@@ -721,7 +728,7 @@ hr {
   color: #fff;
 }
 
-.collapsible {
+/* .collapsible {
   background-color: white;
   color: black;
   cursor: pointer;
@@ -731,38 +738,34 @@ hr {
   text-align: left;
   outline: none;
   font-size: 15px;
-}
+} */
 
-.collapsible:after {
+/* .collapsible:after {
   content: '\003E'; 
   color: black;
   float: right;
   font-size: 24px;
   margin-left: 5px;
-}
-.active, .collapsible:hover {
+} */
+/* .active, .collapsible:hover {
   background-color: #f7f7f9;
-}
+} */
 
-.active:after {
+/* .active:after {
   content: '\2228';
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
+} */
+.arrows {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 20px;
+  margin-right: 0;
 }
-
-.content {
+.web-top1 {
   display: none;
 }
 
-.active-content {
-  display: block; /* Display content when active */
-}
-.web-top{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.custom-active:after {
-  font-family: 'Times New Roman', Times, serif;
-  content: '\2228';
+.active-web-top1 {
+  display: block; 
 }
