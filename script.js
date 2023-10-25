@@ -220,11 +220,11 @@ seeproject.forEach((p) => p.addEventListener('click', (p) => {
   const source = document.getElementById('source');
 
   live.addEventListener('click', () => {
-    document.location.href = pop.live;
+    window.open(pop.live, '_blank');
   });
 
   source.addEventListener('click', () => {
-    document.location.href = pop.source;
+    window.open(pop.source, '_blank');
   });
 
   overlay.classList.toggle('active');
