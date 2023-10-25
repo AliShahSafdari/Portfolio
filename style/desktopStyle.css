@@ -90,7 +90,7 @@
   }
 
   .headlines {
-    background-image: url(./Image/Header\ bg2x.png);
+    background-image: url(../Image/Header\ bg2x.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -167,10 +167,7 @@
     height: 348px;
   }
 
-  .must-ignor {
-    display: none;
-  }
-
+  .must-ignor,
   .must-ignor1 {
     display: none;
   }
@@ -184,7 +181,7 @@
   }
 
   .primarytext-title {
-    font-size: 40px;
+    font-size: 37px;
     line-height: 54px;
   }
 
@@ -228,14 +225,19 @@
     flex-direction: row;
     padding: 10% 7%;
     padding-bottom: 15%;
+    gap: 0;
   }
-  .about-my-self .top{
-    flex: 1 ;
-    border: 1px solid red;
+
+  .top {
+    margin-right: 100px;
+  }
+
+  .about-my-self .top {
+    flex: 1;
   }
 
   .text-container {
-    width: 120%;
+    width: 100%;
   }
 
   .second-text {
@@ -244,15 +246,17 @@
   }
 
   .list-skills {
-    flex:2;
-    height: auto;
-    border: 1px solid green;
+    flex: 1;
   }
-  
 
-  /* .list-skills-ul li {
-    min-width: 46vw;
-} */
+  .arrows {
+    min-width: 40vw;
+  }
+
+  .list-skills-li:last-child {
+    margin-bottom: 15%;
+  }
+
   .ul-item {
     width: 100%;
   }
@@ -261,38 +265,42 @@
     margin-right: 300px;
   }
 
-  .top {
-    margin-right: 100px;
-  }
-
   .web-top {
-    /* display: flex; */
+    display: flex;
     flex-direction: row;
     align-items: center;
     gap: 5%;
     padding: 0;
   }
+
   .web-top1 {
     display: none;
   }
 
   .web-lang {
-
+    flex-direction: column;
+    width: 100px;
     height: 100px;
     padding-bottom: 10px;
   }
 
   .web-lang img,
   .web-lang span {
-    /* margin-left: 7px; */
+    margin: 2%;
+    margin-left: 0;
+    align-self: center;
   }
 
   hr {
     width: 75%;
   }
 
+  .invisable {
+    display: none;
+  }
+
   .contact-me {
-    background-image: url(./Image/desktopbuto.png);
+    background-image: url(../Image/desktopbuto.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

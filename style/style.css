@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: auto;
 }
 
 #box {
@@ -125,7 +124,8 @@
 
 .primarytext33 li {
   display: inline-block;
-  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
   color: #6070ff;
   background-color: #ebebff;
   padding: 3px 8px;
@@ -135,7 +135,10 @@
 .primarytext34 li {
   display: none;
 }
-.invisable { visibility: hidden; }
+
+.invisable {
+  width: 90%;
+}
 
 .but {
   color: #6070ff;
@@ -228,6 +231,21 @@ html {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
+  animation: slideIn 2s ease;
+  animation-fill-mode: both; /* Keeps the end state of the animation */
+  animation-iteration-count: 1;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 .info-text:focus {
@@ -305,7 +323,7 @@ html {
 
 .works-container-image {
   width: 100%;
-  align-self: center;
+  height: 100%;
 }
 
 .must-ignor2 {
@@ -313,7 +331,7 @@ html {
 }
 
 .primarytext-title {
-  font-size: 38px;
+  font-size: 30px;
   margin-block: 15px;
   color: #172b4d;
 }
@@ -340,11 +358,10 @@ html {
 }
 
 .btns {
-  margin-top: 10%;
+  margin-top: 2%;
   display: flex;
   gap: 3px;
   font-size: 20px;
-  text-transform: lowercase;
 }
 
 .primarytext1-1 {
@@ -359,12 +376,6 @@ html {
   flex: none;
   order: 0;
   flex-grow: 0;
-}
-
-ul.primarytext3 {
-  margin-block: 16px;
-  display: flex;
-  align-items: center;
 }
 
 .canopy {
@@ -384,15 +395,18 @@ ul.primarytext3 {
 }
 
 .lang {
+  display: inline-block;
   border-radius: 8px;
   color: #6070ff;
   background-color: #ebebff;
   border: none;
   cursor: pointer;
   font-size: 12px;
-  padding: 4px 12px;
+  padding: 4px 8px;
+  width: fit-content;
   list-style-type: none;
-  margin-right: 8px;
+  text-align: center;
+  margin-bottom: 5px;
 }
 
 .project {
@@ -442,6 +456,7 @@ ul.primarytext3 {
   align-items: flex-start;
   background-color: #fff;
   align-self: center;
+  gap: 8px;
 }
 
 .list-skills {
@@ -450,23 +465,16 @@ ul.primarytext3 {
   align-items: center;
   margin-top: 10px;
 }
-.list-skills-ul{
+
+.list-skills-ul {
   list-style-type: none;
 }
- 
-ul .list-skills-li {
- min-width: 80vw; 
- } 
 
 .text-container {
   display: grid;
   grid-template-columns: 1fr;
   grid-auto-rows: minmax(50px, auto);
   grid-gap: 10px 0;
-}
-
-.social-media1 {
-  margin-top: -20px;
 }
 
 .first-text {
@@ -498,7 +506,6 @@ ul .list-skills-li {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  margin-top: 10px;
   margin-left: 20px;
   color: #7f8cff;
   margin-bottom: 10px;
@@ -531,15 +538,13 @@ ul.socail-media-icon1 {
   border-style: solid;
   border-width: 1px;
   border-color: #084bf5;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
   word-spacing: 3px;
   margin-left: 20px;
   padding: 5px 12px;
-  margin-top: 5px;
   text-align: center;
+  text-decoration: none;
 }
 
 .normal-button:hover {
@@ -611,9 +616,9 @@ ul.socail-media-icon1 {
   display: flex;
   flex-direction: row;
   height: 54.72px;
-  width: 290.5px;
+  width: 100%;
   border-radius: 10px;
-  margin-top: 0;
+  margin: 2% 0;
   padding-top: 5px;
   background-color: #f7f7f9;
 }
@@ -728,44 +733,28 @@ hr {
   color: #fff;
 }
 
-/* .collapsible {
-  background-color: white;
-  color: black;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-} */
-
-/* .collapsible:after {
-  content: '\003E'; 
-  color: black;
-  float: right;
-  font-size: 24px;
-  margin-left: 5px;
-} */
-/* .active, .collapsible:hover {
-  background-color: #f7f7f9;
-} */
-
-/* .active:after {
-  content: '\2228';
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  
-} */
 .arrows {
   display: flex;
   justify-content: space-between;
   position: relative;
   margin-bottom: 20px;
   margin-right: 0;
+  min-width: 70vw;
+  cursor: pointer;
 }
+
 .web-top1 {
   display: none;
 }
 
-.active-web-top1 {
-  display: block; 
+.list-skills-li-border {
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.list-skills-li {
+  margin-bottom: 10%;
+}
+
+.list-skills-li:last-child {
+  margin-bottom: 30%;
 }
