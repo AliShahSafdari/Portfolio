@@ -125,7 +125,7 @@
 .primarytext33 li {
   display: inline-block;
   margin-top: 5px;
-  margin-right: 5px;
+  margin-right:5px ;
   color: #6070ff;
   background-color: #ebebff;
   padding: 3px 8px;
@@ -135,10 +135,9 @@
 .primarytext34 li {
   display: none;
 }
-
-.invisable {
+.invisable { 
   width: 90%;
-}
+ }
 
 .but {
   color: #6070ff;
@@ -236,18 +235,17 @@ html {
   animation-iteration-count: 1;
 }
 
+
 @keyframes slideIn {
   0% {
     transform: translateX(-100%);
     opacity: 0;
   }
-
   100% {
     transform: translateX(0);
     opacity: 1;
   }
 }
-
 .info-text:focus {
   outline: 2px solid #273bf3;
   padding: 2px;
@@ -324,6 +322,7 @@ html {
 .works-container-image {
   width: 100%;
   height: 100%;
+
 }
 
 .must-ignor2 {
@@ -465,10 +464,10 @@ html {
   align-items: center;
   margin-top: 10px;
 }
-
-.list-skills-ul {
+.list-skills-ul{
   list-style-type: none;
 }
+ 
 
 .text-container {
   display: grid;
@@ -742,19 +741,16 @@ hr {
   min-width: 70vw;
   cursor: pointer;
 }
-
 .web-top1 {
   display: none;
 }
 
-.list-skills-li-border {
+.list-skills-li-border{
   border-bottom: 1px solid #dfe1e6;
-}
-
-.list-skills-li {
+} 
+.list-skills-li{
   margin-bottom: 10%;
 }
-
-.list-skills-li:last-child {
+.list-skills-li:last-child{
   margin-bottom: 30%;
 }

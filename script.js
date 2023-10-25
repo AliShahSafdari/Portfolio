@@ -265,6 +265,4 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-// let coll = document.getElementsByClassName("collapsibl
-
 
